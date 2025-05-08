@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+.cb {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+
+    background-color: #fff;
+    padding: 20px 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0,0.1 );
+    
+}
+  
+.logo {
+    max-width: 100%;
+    width: 300px;
+    height: auto;
+}
+  
+.menu {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    font-family: "Tangerine", cursive;
+    
+}
+  
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.55rem;
+    flex-wrap: wrap;
+   
+}
+.menu a:hover{
+    color: #d9534f;;
+}
+
+section{
+    margin-top: 250px;
+    margin-bottom: 100px;
+}
+#sobremim {
+    width: 72%;
+    margin: 100px auto;
+    background-color: #d9534f;
+    color: white;
+    padding: 30px;
+    border-radius: 60px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: row-reverse;
+    border: rgb(245, 245, 93) 10px solid;
+}
+  
+  
+.imgperf {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid white;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+  
+.textosobremim {
+    flex: 1 1 300px;
+    min-width: 250px;
+    margin: 10px;
+}
+
+article{
+    margin-top: 100 px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: inline-block;
+    
+    width: 90%;
+}
+
+.hobby h1{
+    width: 50%;
+    font-size:30px;
+    padding: 10px;
+    margin:0;
+    margin-left: 25%;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    background-color: rgb(245, 245, 93);
+    border-radius: 50px;
+    text-align: center;    
+}
+.tipohobby{
+    display: inline-block;
+    margin-top: 2%;
+}
+.card{
+    display: inline-block;
+    width: 40%;
+    padding: 20px;
+    margin: 1%;
+    color: white;
+    background-color: #d9534f;
+    border: 1px solid ;
+    text-align: center;
+    border-radius: 40px;
+    margin-left: 5%;
+    transition-duration: 0.3s;
+    transition-property: all;
+}
+
+.texto-oculto{
+    display: none;
+    li{
+        text-align: justify;
+    }
+
+}
+
+.card:hover{
+    background-color: rgb(245, 245, 93);
+    border: 10px solid #d9534f;
+    color: black;
+    img{
+        display: none;
+    }
+
+}
+
+.card:hover .card-texto{
+    display: none;
+}
+.card:hover .texto-oculto{
+    display: inline-block;
+}
+
+.texto-oculto{
+    display: none;
+
+}
+
+.minhasmusicas{
+    margin-top: 80px;
+    h1{
+        width: 50%;
+        font-size:30px;
+        padding: 10px;
+        margin:0;
+        margin-left: 25%;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: black;
+        background-color: rgb(245, 245, 93);
+        border-radius: 50px;
+        text-align: center;  
+    }
+
+}
+.cardgmusica{
+    margin-left: 22vw;
+}
+.card-musica{
+    display: inline-block;
+    width: 200px; 
+    padding: 20px;
+    margin: 10px;
+    color: white;
+    background-color: #d9534f;
+    border: 1px solid transparent;
+    text-align: center;
+    border-radius: 40px;
+    box-sizing: border-box;
+}
+audio{
+    width: 100%;
+    max-width: 160px;
+    border-radius: 10px;
+}
+
+footer{
+    margin-top: 200px;
+    height: 150px;
+    border-top: 3px solid #d9534f;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    padding: 50px;
+}
+footer a{
+    text-decoration: none;
+}
+.logorodape{
+    width: 30vw; 
+    max-width: 300px;
+    height: auto;   
+}
+
