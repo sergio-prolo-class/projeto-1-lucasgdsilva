@@ -23,11 +23,9 @@ O objetivo deste site é reunir e organizar informações sobre minha vida pesso
 
 Para visualizar o site, basta clonar este repositório para sua máquina local e abrir o arquivo lucasgphome.html no seu navegador.
 
-## Contato
 
-Se você quiser entrar em contato comigo, pode me encontrar nas seguintes redes sociais:
+
 
 - [Instagram](https://www.instagram.com/lucaxgds/?next=%2F)
-- [GitHub](https://github.com/lucasgdsilva)
 - [LinkedIn](https://www.linkedin.com/in/lucasgdsilva/)
 
